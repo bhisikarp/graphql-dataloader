@@ -1,0 +1,10 @@
+schema{
+query:Query
+}
+type Query {
+account(accountId: ID):Account
+
+device(deviceId: ID):Device
+
+customer(customerId: ID):Customer
+}

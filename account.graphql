@@ -1,0 +1,10 @@
+type Account {
+id: ID!,
+accountNumber: String,
+availableFunds: Int,
+customerId: Long,
+deviceId: Long
+customer: [Customer]
+device: [Device]
+}
+
